@@ -1,36 +1,8 @@
 # 2D Top-View Game Implementation
 
-[...]
+This repository contains the implementation of a 2D top-view game created for the DMET 502 Computer Graphics course at the German University in Cairo, Winter 2023.
 
 ## Project Overview
-
-This project is structured with the following key files:
-
-- **OpenGL2DTemplate.vcxproj:**
-  This file is the main project file for VC++ projects generated using an Application Wizard. It contains information about the version of Visual C++ that generated the file, and information about the platforms, configurations, and project features.
-
-- **OpenGL2DTemplate.vcxproj.filters:**
-  This file is the filters file for VC++ projects generated using an Application Wizard. It contains information about the association between the files in your project and the filters.
-
-- **OpenGL2DTemplate.cpp:**
-  This is the main application source file.
-
-- **StdAfx.h, StdAfx.cpp:**
-  These files are used to build a precompiled header (PCH) file named OpenGL2DTemplate.pch and a precompiled types file named StdAfx.obj.
-
-## Other Standard Files
-
-- **StdAfx.h, StdAfx.cpp:**
-  These files are used to build a precompiled header (PCH) file named OpenGL2DTemplate.pch and a precompiled types file named StdAfx.obj.
-
-## Notes
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you should add to or customize.
-
-[...]
-
-This repository contains the implementation of a 2D top-view game created for the DMET 502 Computer Graphics course at the German University in Cairo, Winter 2023.
-## Game Overview
 
 ### General Idea:
 
@@ -67,7 +39,7 @@ In this 2D top-view game, players navigate through a scene with the goal of coll
   - It remains fixed in position until acquired by the player.
 
 - **Effect Duration:**
-  - The effect of the Time Freeze Power-Up lasts for a 10 seconds.
+  - The effect of the Time Freeze Power-Up lasts for 10 seconds.
   - After the specified duration, the power-up deactivates, and the game timer resumes.
 
 ### Score Duplication Power-Up:
@@ -81,24 +53,27 @@ In this 2D top-view game, players navigate through a scene with the goal of coll
   - It remains fixed in position until acquired by the player.
 
 - **Effect Duration:**
-  - The effect of the Score Duplication Power-Up lasts for a 10 seconds.
+  - The effect of the Score Duplication Power-Up lasts for 10 seconds.
   - After the specified duration, the power-up deactivates, and the game score returns to its normal rate.
 
-- **Player Lives:**
-  - Player loses a life on collision with obstacles or game boundaries.
+### Player Lives:
 
-- **Game End:**
-  - End game screen displayed upon game end.
-  - Indicates game win or loss based on the game state.
+- Player loses a life on collision with obstacles or game boundaries.
 
-- **Bonus Features**
-  - Sound effects and background music.
+### Game End:
+
+- End game screen displayed upon game end.
+- Indicates game win or loss based on the game state.
+
+### Bonus Features:
+
+- Sound effects and background music.
 
 ## How to Play
 
 1. Clone the repository.
 2. Open the project in your preferred development environment.
-3. Run the game on visual studio.
+3. Run the game on Visual Studio.
 4. Use keyboard keys to control the player and navigate through the scene.
 5. Collect collectibles and power-ups while avoiding obstacles.
 6. Monitor the health bar, game score, and remaining time.
